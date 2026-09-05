@@ -26,20 +26,36 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 **Procedure**
 
 1.Open Quartus Prime and create a new project for the SISO Shift Register.
+
 2.Create a new Verilog HDL file and enter the Verilog program for the 4-bit SISO Shift Register.
+
 3.Define the inputs CLK, SI, and CLEAR, and the serial output SO.
+
 4.Implement the 4-bit shift register using a 4-bit register tmp.
+
 5.Apply the CLEAR signal to reset the register to 0000.
+
 6.On every positive edge of the clock, shift the stored data by one position and load the serial input into the first bit.
+
 7.Assign the last bit of the register to the serial output SO.
+
 8.Save the Verilog file and set it as the Top-Level Entity.
+
 9.Compile the design using Start Compilation and check for errors.
+
 10.Open the RTL Viewer to verify the generated SISO Shift Register circuit.
+
 11.Open the Simulation Waveform Editor and add CLK, CLEAR, SI, and SO signals.
+
 12.Apply suitable input combinations and clock pulses to verify the shifting operation.
+
 13.Simulate the circuit and observe the output waveform.
+
 14.Verify that the serial input data appears at the serial output after passing through the 4-bit register.
+
 15.Compare the simulation results with the expected functional behavior and verify the operation of the SISO Shift Register.
+
+
 **PROGRAM**
 Program for flipflops and verify its truth table in quartus using Verilog programming.
 

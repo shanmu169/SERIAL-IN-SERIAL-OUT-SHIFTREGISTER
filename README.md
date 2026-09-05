@@ -45,7 +45,7 @@ Program for flipflops and verify its truth table in quartus using Verilog progra
 
 Developed by: Shanmuga priya K RegisterNumber: 212225040401
 ```
-module sisomod(clk,clear,si,so);
+module exp5(clk,clear,si,so);
 input clk,si,clear;
 output so;
 reg so;
